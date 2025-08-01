@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(17, 192, 133, 0.484);
+    color:aliceblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.container{
+    padding:50px;
+    display: flex;
+    flex-direction:column;
+    row-gap: 10px;
+    align-items:center;
+    background-color:rgba(6, 6, 6, 0.292) ;
+    border-radius: 10px;
+    height: auto;
+}
+h1{
+    text-decoration: underline;
+    align-self: self-start;
+ }
+ input{
+    background-color: rgba(0, 0, 0, 0.646);
+    color: white;
+    font-size: 17px;
+    width:300px;
+    margin-right: 20px;
+    padding:5px;
+    border-radius: 10px;
+ }
+ input::placeholder{
+    opacity: 0.8;
+    color:white
+ }
+ .user{
+    height: 70px;
+    padding:10px 20px;
+    border-bottom: 2px solid rgb(109, 118, 99);
+ }
+button{
+    display: inline-block;
+    font-size: 15px;
+    width:auto;
+    padding:7px;
+    border-radius: 10px;
+    background-color:rgba(84, 81, 81, 0.74) ;
+    color:rgba(255, 255, 255, 0.71)
+ }
+button:hover{
+    color: white;
+    background-color: rgb(21, 19, 19);
+    transform: scale(1.05);
+    cursor:pointer;
+    border:1px solid black;
+    box-sizing:border-box
+}
+.problems_solved {
+  height: 120px;
+  width: 120px;
+  background:conic-gradient(rgb(1, 199, 1) var(--progress-degree),#283a2e 0%);
+  display:inline-block;
+  margin:20px;
+  border-radius: 10000px;
+  text-align: center;
+  align-content: center;
+  border: 3px solid rgb(89, 255, 89);
+}
+
